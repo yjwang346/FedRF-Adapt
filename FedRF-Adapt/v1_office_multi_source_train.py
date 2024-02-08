@@ -16,7 +16,7 @@ from torch.optim import SGD, Adam
 import torch
 torch.cuda.current_device()
 # from v2_federated_model import federated_source_and_target_model
-from v1_no_TCA_multi_source_model import notca_federated_source_and_target_model, notca_federated_source_and_target_model_office_caltech, twice_notca_federated_source_and_target_model_office_caltech
+from v1_FedRF_Adapt_model import notca_federated_source_and_target_model, notca_federated_source_and_target_model_office_caltech, twice_notca_federated_source_and_target_model_office_caltech
 from TorchRandomF import RFF_perso
 # from RandomF import RFF_perso
 from torchvision import models, transforms as T
